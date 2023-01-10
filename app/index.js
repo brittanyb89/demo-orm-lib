@@ -1,6 +1,8 @@
 import express from "express";
-import bookRouter from "../book/routes.js";
+import bookRouter from "./book/routes.js";
+
 const app = express();
+
 const port = 3001;
 
 // Middleware to set "json" parsing; to process incoming request bodies (e.g. POST requests - CREATE)
