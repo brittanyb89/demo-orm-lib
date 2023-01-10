@@ -1,5 +1,5 @@
 import express from "express";
-import bookRouter from "./book/router.js";
+import bookRouter from "../book/routes.js";
 const app = express();
 const port = 3001;
 
