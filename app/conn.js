@@ -6,7 +6,7 @@ const sequelize = new Sequelize(
   config.db.name,
   config.db.user,
   config.db.password,
-  { host: "localhost", dialect: "mysql", port: 3306 }
+  { host: "localhost", dialect: "mysql" }
 );
 
 await sequelize.authenticate().catch((err) => {
