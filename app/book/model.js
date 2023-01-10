@@ -1,5 +1,5 @@
 import { DataTypes } from "sequelize";
-import sequelize from "../conn.js/";
+import sequelize from "../conn.js";
 
 // add model for Book
 const Book = sequelize.define(

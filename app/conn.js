@@ -1,5 +1,5 @@
 import { Sequelize } from "sequelize";
-import config from "./config.js/";
+import config from "./config.js";
 
 // refer to sequelize docs
 const sequelize = new Sequelize(
@@ -16,6 +16,6 @@ await sequelize.authenticate().catch((err) => {
   process.exit(1);
 });
 
-// console.log("Connection has been established successfully.");
+console.log("Connection has been established successfully.");
 
 export default sequelize;
